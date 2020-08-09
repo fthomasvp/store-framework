@@ -13,6 +13,7 @@
       "responsive-layout.mobile#mobile"
     ]
   },
+
   "rich-text": {
     "props": {
       "text": "**Hello, World!**",
@@ -47,13 +48,13 @@
       "blockClass": "metal"
     }
   },
+
   "flex-layout.row": {
     "children": ["info-card#rethink", "flex-layout.col"]
   },
   "flex-layout.col": {
     "children": ["image#electronics", "image#major-appliance"]
   },
-
   "info-card#rethink": {
     "props": {
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
@@ -75,6 +76,7 @@
       "maxWidth": "100%"
     }
   },
+
   "responsive-layout.desktop#desktop": {
     "children": ["rich-text#desktop", "image#desktop"]
   },
@@ -82,7 +84,6 @@
   "responsive-layout.mobile#mobile": {
     "children": ["rich-text#mobile", "image#mobile"]
   },
-
   "rich-text#desktop": {
     "props": {
       "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
@@ -98,7 +99,6 @@
       "textAlignment": "CENTER"
     }
   },
-
   "image#desktop": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
@@ -109,7 +109,6 @@
       "maxWidth": "100%"
     }
   },
-
   "image#mobile": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
