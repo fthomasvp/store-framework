@@ -10,7 +10,11 @@
     }
   },
   "search-result-layout.customQuery": {
-    "blocks": ["search-result-layout.desktop", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
         "skusFilter": "FIRST_AVAILABLE",
