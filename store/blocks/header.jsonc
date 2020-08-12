@@ -5,7 +5,6 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
-
   "header-layout.desktop": {
     "children": [
       "header-row#notification",
@@ -13,7 +12,6 @@
       "header-row#menu"
     ]
   },
-
   "header-layout.mobile": {
     "children": [
       "header-row#notification",
@@ -21,7 +19,6 @@
       "header-row#search"
     ]
   },
-
   "header-row#notification": {
     "children": ["header-spacer", "rich-text#header", "header-spacer"]
   },
@@ -33,7 +30,6 @@
       "fullWidth": false
     }
   },
-
   "header-row#main-mobile": {
     "children": ["drawer", "logo", "header-spacer", "minicart", "login"],
 
@@ -48,7 +44,6 @@
       "sticky": true
     }
   },
-
   "login": {
     "props": {
       "showIconProfile": true,
@@ -66,7 +61,6 @@
       "textPosition": "CENTER"
     }
   },
-
   "header-row#menu": {
     "children": [
       "header-spacer",
@@ -84,7 +78,6 @@
       "orientation": "horizontal"
     }
   },
-
   "vtex.menu@2.x:submenu#major": {
     "children": ["vtex.menu@2.x:menu#major"]
   },
@@ -98,7 +91,6 @@
       "orientation": "vertical"
     }
   },
-
   "vtex.menu@2.x:submenu#small": {
     "children": ["vtex.menu@2.x:menu#small"]
   },
@@ -108,7 +100,6 @@
       "orientation": "vertical"
     }
   },
-
   "vtex.menu@2.x:submenu#electronics": {
     "children": ["vtex.menu@2.x:menu#electronics"]
   },
